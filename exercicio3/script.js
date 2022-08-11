@@ -15,7 +15,7 @@ const nacionalidade = prompt('Escreva aqui sua nacionalidade, Please!');
 
   if (nacionalidade === "brasileira" || nacionalidade === "argentina" || nacionalidade
 === "uruguaia" || nacionalidade === "chilena" || nacionalidade === "colombiana") {
-    console.log(nacionalidade[0].toUpperCase() + nacionalidade.substring(1))
+    console.log(nacionalidade[0].toUpperCase() + nacionalidade.substring(1) )
 } else {
     console.log("Nacionalidade não encontrada.")
 }
